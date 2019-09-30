@@ -1,0 +1,257 @@
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(50,50,50); 
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: -20px;
+}
+
+h1 {
+	color: #3072AC;
+	font-weight: 100;
+	letter-spacing: 5px;
+	font-size: 42px; 
+	text-transform: uppercase;
+	margin-top: -28px;
+    margin-bottom: 13px;
+}
+
+h2{
+	color: #3072AC;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-top: -30px;
+	text-transform: uppercase;
+}
+
+h3{
+	color: rgb(70,70,70);
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: -10px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+
+}
+
+p{
+	text-justify: center;
+	font-weight: lighter;
+	text-align: center;
+}
+
+a:hover {
+	color: blue;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	padding-bottom: 25px; 
+	box-shadow: 0px 10px 30px rgba(48,114,172,0.4);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-circle {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #3072AC;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #275C8B;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #3072AC;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
+
+#HEC-logo {
+	max-width: 100%;
+    height: 40px;
+    position: relative;
+    top: -229px;
+    left: 354px;
+    border-radius: 4px;
+}
+
+#UCL-logo {
+	max-width: 100%;
+    height: 30px;
+    position: relative;
+    top: -180px;
+    left: 301px;
+    border-radius: 4px;
+}
+
+#Integrale-logo {
+    max-width: 100%;
+    height: 28px;
+    position: relative;
+    top: -122px;
+    left: 240px;
+    border-radius: 4px;
+}
+
+#StJo-logo {
+    max-width: 100%;
+    height: 35px;
+    position: relative;
+    top: -64px;
+    left: 150px;
+    border-radius: 4px;
+}
+
+@media (max-width: 760px) {
+	#HEC-logo {
+		max-width: 100%;
+	    height: 40px;
+	    position: relative;
+	    top: -229px;
+	    left: 300px;
+	    border-radius: 4px;
+	}
+
+	#UCL-logo {
+		max-width: 100%;
+	    height: 30px;
+	    position: relative;
+	    top: -180px;
+	    left: 245px;
+	    border-radius: 4px;
+	}
+
+	#Integrale-logo {
+	    max-width: 100%;
+	    height: 28px;
+	    position: relative;
+	    top: -122px;
+	    left: 185px;
+	    border-radius: 4px;
+	}
+
+	#StJo-logo {
+	    max-width: 100%;
+	    height: 35px;
+	    position: relative;
+	    top: -64px;
+	    left: 100px;
+	    border-radius: 4px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	#HEC-logo {
+		max-width: 100%;
+	    height: 40px;
+	    position: relative;
+	    top: -275px;
+	    left: 215px;
+	    border-radius: 4px;
+    }
+    #UCL-logo {
+		max-width: 100%;
+	    height: 30px;
+	    position: relative;
+	    top: -220px;
+	    left: 160px;
+	    border-radius: 4px;
+    }
+    #Integrale-logo {
+		max-width: 100%;
+	    height: 20px;
+	    position: relative;
+	    top: -155px;
+	    left: 100px;
+	    border-radius: 4px;
+    }
+    #StJo-logo {
+		max-width: 100%;
+	    height: 30px;
+	    position: relative;
+	    top: -90px;
+	    left: 40px;
+	    border-radius: 4px;
+    }
+}
+
+.list-left {
+	padding-left: 0px;
+}
+
+.list-left li {
+	margin-top: 30px;
+}
+
+.list-left p {
+	margin-left: 15px;
+	text-align: left;
+	padding-left: 5px;
+	margin-top: -3px;
+	font-size: 14px;
+}
+
